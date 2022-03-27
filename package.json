@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "pm2": "^5.2.0"
+  },
+  "scripts": {
+    "start": "pm2 start index.js --watch",
+    "dev": "node index.js"
+  }
+}
