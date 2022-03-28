@@ -5,6 +5,8 @@
   },
   "scripts": {
     "start": "pm2 start index.js --watch",
+    "start:pro": "pm2 start ecosystem.config.js",
+    "stop": "pm2 stop all",
     "dev": "node index.js"
   }
 }
